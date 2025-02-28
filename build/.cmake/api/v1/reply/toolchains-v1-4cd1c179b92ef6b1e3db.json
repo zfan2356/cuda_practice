@@ -1,14 +1,14 @@
 {
 	"kind" : "toolchains",
-	"toolchains" : 
+	"toolchains" :
 	[
 		{
-			"compiler" : 
+			"compiler" :
 			{
 				"id" : "NVIDIA",
-				"implicit" : 
+				"implicit" :
 				{
-					"includeDirectories" : 
+					"includeDirectories" :
 					[
 						"/data/home/xingonzhang/micromamba/envs/dev1/lib/gcc/x86_64-conda-linux-gnu/11.4.0/include/c++",
 						"/data/home/xingonzhang/micromamba/envs/dev1/lib/gcc/x86_64-conda-linux-gnu/11.4.0/include/c++/x86_64-conda-linux-gnu",
@@ -17,7 +17,7 @@
 						"/data/home/xingonzhang/micromamba/envs/dev1/lib/gcc/x86_64-conda-linux-gnu/11.4.0/include-fixed",
 						"/data/home/xingonzhang/micromamba/envs/dev1/x86_64-conda-linux-gnu/sysroot/usr/include"
 					],
-					"linkDirectories" : 
+					"linkDirectories" :
 					[
 						"/data/home/xingonzhang/micromamba/envs/dev1/lib",
 						"/data/home/xingonzhang/micromamba/envs/dev1/targets/x86_64-linux/lib",
@@ -29,7 +29,7 @@
 						"/data/home/xingonzhang/micromamba/envs/dev1/x86_64-conda-linux-gnu/sysroot/usr/lib"
 					],
 					"linkFrameworkDirectories" : [],
-					"linkLibraries" : 
+					"linkLibraries" :
 					[
 						"stdc++",
 						"m",
@@ -44,16 +44,16 @@
 				"version" : "12.2.140"
 			},
 			"language" : "CUDA",
-			"sourceFileExtensions" : 
+			"sourceFileExtensions" :
 			[
 				"cu"
 			]
 		},
 		{
-			"compiler" : 
+			"compiler" :
 			{
 				"id" : "Clang",
-				"implicit" : 
+				"implicit" :
 				{
 					"includeDirectories" : [],
 					"linkDirectories" : [],
@@ -64,7 +64,7 @@
 				"version" : "15.0.7"
 			},
 			"language" : "CXX",
-			"sourceFileExtensions" : 
+			"sourceFileExtensions" :
 			[
 				"C",
 				"M",
@@ -81,7 +81,7 @@
 			]
 		}
 	],
-	"version" : 
+	"version" :
 	{
 		"major" : 1,
 		"minor" : 0

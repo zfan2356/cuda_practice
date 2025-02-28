@@ -1,23 +1,23 @@
 {
-	"artifacts" : 
+	"artifacts" :
 	[
 		{
 			"path" : "gelu"
 		}
 	],
 	"backtrace" : 1,
-	"backtraceGraph" : 
+	"backtraceGraph" :
 	{
-		"commands" : 
+		"commands" :
 		[
 			"add_executable",
 			"include_directories"
 		],
-		"files" : 
+		"files" :
 		[
 			"CMakeLists.txt"
 		],
-		"nodes" : 
+		"nodes" :
 		[
 			{
 				"file" : 0
@@ -36,16 +36,16 @@
 			}
 		]
 	},
-	"compileGroups" : 
+	"compileGroups" :
 	[
 		{
-			"compileCommandFragments" : 
+			"compileCommandFragments" :
 			[
 				{
 					"fragment" : "-std=c++20 --generate-code=arch=compute_52,code=[compute_52,sm_52]"
 				}
 			],
-			"includes" : 
+			"includes" :
 			[
 				{
 					"backtrace" : 2,
@@ -53,24 +53,24 @@
 				}
 			],
 			"language" : "CUDA",
-			"languageStandard" : 
+			"languageStandard" :
 			{
-				"backtraces" : 
+				"backtraces" :
 				[
 					1
 				],
 				"standard" : "20"
 			},
-			"sourceIndexes" : 
+			"sourceIndexes" :
 			[
 				0
 			]
 		}
 	],
 	"id" : "gelu::@6890427a1f51a3e7e1df",
-	"link" : 
+	"link" :
 	{
-		"commandFragments" : 
+		"commandFragments" :
 		[
 			{
 				"fragment" : "--generate-code=arch=compute_52,code=[compute_52,sm_52]",
@@ -105,22 +105,22 @@
 	},
 	"name" : "gelu",
 	"nameOnDisk" : "gelu",
-	"paths" : 
+	"paths" :
 	{
 		"build" : ".",
 		"source" : "."
 	},
-	"sourceGroups" : 
+	"sourceGroups" :
 	[
 		{
 			"name" : "Source Files",
-			"sourceIndexes" : 
+			"sourceIndexes" :
 			[
 				0
 			]
 		}
 	],
-	"sources" : 
+	"sources" :
 	[
 		{
 			"backtrace" : 1,

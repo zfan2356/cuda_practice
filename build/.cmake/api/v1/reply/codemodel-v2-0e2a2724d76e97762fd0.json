@@ -1,19 +1,19 @@
 {
-	"configurations" : 
+	"configurations" :
 	[
 		{
-			"directories" : 
+			"directories" :
 			[
 				{
 					"build" : ".",
 					"jsonFile" : "directory-.-f5ebdc15457944623624.json",
-					"minimumCMakeVersion" : 
+					"minimumCMakeVersion" :
 					{
 						"string" : "3.26.5"
 					},
 					"projectIndex" : 0,
 					"source" : ".",
-					"targetIndexes" : 
+					"targetIndexes" :
 					[
 						0,
 						1,
@@ -23,15 +23,15 @@
 				}
 			],
 			"name" : "",
-			"projects" : 
+			"projects" :
 			[
 				{
-					"directoryIndexes" : 
+					"directoryIndexes" :
 					[
 						0
 					],
 					"name" : "cuda_test",
-					"targetIndexes" : 
+					"targetIndexes" :
 					[
 						0,
 						1,
@@ -40,7 +40,7 @@
 					]
 				}
 			],
-			"targets" : 
+			"targets" :
 			[
 				{
 					"directoryIndex" : 0,
@@ -74,12 +74,12 @@
 		}
 	],
 	"kind" : "codemodel",
-	"paths" : 
+	"paths" :
 	{
 		"build" : "/data/home/xingonzhang/zfan2356/cuda_test/build",
 		"source" : "/data/home/xingonzhang/zfan2356/cuda_test"
 	},
-	"version" : 
+	"version" :
 	{
 		"major" : 2,
 		"minor" : 5

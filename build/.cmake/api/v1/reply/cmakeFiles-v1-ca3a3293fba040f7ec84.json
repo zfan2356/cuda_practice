@@ -1,5 +1,5 @@
 {
-	"inputs" : 
+	"inputs" :
 	[
 		{
 			"path" : "CMakeLists.txt"
@@ -432,12 +432,12 @@
 		}
 	],
 	"kind" : "cmakeFiles",
-	"paths" : 
+	"paths" :
 	{
 		"build" : "/data/home/xingonzhang/zfan2356/cuda_test/build",
 		"source" : "/data/home/xingonzhang/zfan2356/cuda_test"
 	},
-	"version" : 
+	"version" :
 	{
 		"major" : 1,
 		"minor" : 0
