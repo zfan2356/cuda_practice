@@ -4,7 +4,7 @@
 
 namespace prtc {
 PYBIND11_MODULE(TORCH_EXTENSION_NAME, m) {
-    auto prtc = m.def_submodule("prtc");
-    bind(prtc);
+  auto prtc = m.def_submodule("prtc");
+  bind(prtc);
 }
-}
+} // namespace prtc
