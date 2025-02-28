@@ -2,6 +2,8 @@
 
 > cuda best practice &amp; notes
 
+this is a general template for customizing some CUDA operators to integrate into your own training framwork to achieve acceleration effects.
+
 choose the right cuda/torch version, the gpu used in this project is A10, so the highest version of nvidia driver is 12.2, you can choose the version that suits your device.
 
 ```
